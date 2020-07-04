@@ -4,6 +4,19 @@ html {
   padding: 0;
 }
 
+.center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+.profiles {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+}
+
+
 .wrapper {
   height: 100vh;
   overflow-x: hidden;
@@ -13,7 +26,7 @@ html {
 
 .section {
   position: relative;
-  height: 80vh;
+  height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -34,6 +47,10 @@ html {
   z-index: -1;
 }
 
+h2 {
+  font-size: 20px;
+}
+
 .static {
   background: rgb(255, 255, 255);
 }
@@ -41,16 +58,59 @@ html {
 .static2 {
   background: rgb(255, 255, 255);
 }
-
+/*royalty free image source https://unsplash.com/photos/UjupleczBOY*/
 .bg1::after {
-  background-image: url("https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80");
+  background-image: url("https://images.unsplash.com/photo-1566305977571-5666677c6e98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2097&q=80");
 }
 
 .bg2::after {
-  background-image: url("https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80");
+  background-image: url("https://images.unsplash.com/photo-1566305977571-5666677c6e98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2097&q=80");
 }
-.center {
-  margin: auto;
-  width: 50%;
-  padding: 10px;
+
+.bg2::after {
+  background-image: url("https://images.unsplash.com/photo-1566305977571-5666677c6e98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2097&q=80");
 }
+
+.bg3::after {
+  background-image: url("https://images.unsplash.com/photo-1566305977571-5666677c6e98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2097&q=80");
+}
+
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 15%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+
+
