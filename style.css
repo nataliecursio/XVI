@@ -3,11 +3,23 @@ body {
 }
 
 .landingbar {
-    width: 100%;
-   width: 100vw;
-   height: 300px;
+    width: 80%;
+    height: 100%;
     position: fixed;
-    top: 30%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #000000;
+
+    margin: 0 auto;
+    
+  }
+
+  .topbar {
+    width: 80%;
+    height: 300px;
+    position: sticky;
+    
     background: #000000;
     padding: 50px;
     margin: 0 auto;
@@ -16,7 +28,7 @@ body {
 
   #logo {
     position: fixed;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
     z-index: 1;
@@ -24,16 +36,19 @@ body {
   
   .websitelinks {
 
-    position: fixed;
-    top: 65%;
+    position: absolute;
+    top: 58%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     font-family: "Open Sans";
     font-size: 25px;
     font-variant: all-small-caps;
-    letter-spacing: 8px;
+    letter-spacing: 5px;
     text-decoration: none;
+    text-align: center;
+    
+    
 
   }
 
