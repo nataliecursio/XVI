@@ -10,12 +10,6 @@ html {
   padding: 10px;
 }
 
-.profiles {
-  margin: auto;
-  width: 80%;
-  padding: 10px;
-}
-
 
 .wrapper {
   height: 100vh;
@@ -87,7 +81,9 @@ h2 {
   padding: 0 8px;
 }
 
-@media screen and (max-width: 650px) {
+
+
+@media screen and (max-width: 950px) {
   .column {
     width: 100%;
     display: block;
@@ -99,7 +95,7 @@ h2 {
 }
 
 .container {
-  padding: 0 16px;
+  padding: 0 5px;
 }
 
 .container::after, .row::after {
