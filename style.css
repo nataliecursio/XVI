@@ -141,7 +141,7 @@ h2 {
 
 @media screen and (max-width: 950px) {
   .column {
-    width: 100%;
+    width: 15%;
     display: block;
     
   }
