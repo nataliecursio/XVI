@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
 }
+
 .fade-in {
   animation: fadeIn ease 5s;
   -webkit-animation: fadeIn ease 5s;
@@ -108,7 +109,7 @@
 
 .section {
   position: relative;
-  height: 90vh;
+  height: 95vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -213,9 +214,13 @@ h2 {
 .footer {
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: 0%;
+  margin:0;
+  padding:0;
   width: 100%;
   background-color: #333;
   color: white;
   text-align: center;
+  clear: both;
+  margin-top: 50px;  
 }
