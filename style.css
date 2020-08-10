@@ -92,6 +92,10 @@
 
 }
 
+img {
+  float: left;
+}
+
 .profiles {
   margin: auto;
   width: 85%;
